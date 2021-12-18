@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* background:black; */
+
+  box-sizing: border-box;
+}
+.App{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.add-task{
+  margin-left: 1rem;
+  padding:1rem;
+  font-weight: 700;
+  border-radius: 1rem;
+  border: none;
+  background-color: yellow;
+  color:purple;
+}
+.input-task{
+  display:flex;
+}
+input{
+  height: 2rem;
+  /* color: wheat; */
+  margin-top: 2rem;
+  border-radius: 1rem;
+  border: solid .1rem purple;
+}
+.todolist{
+  display: grid;
+  margin-top: 1rem;
+  border-radius: .5rem;
+}
+.todolist li{
+  margin-top: 1rem;
+  border-radius: .5rem;
+  color: purple;
+  font-size: 1.5rem;
+  justify-content: center;
+  display:flex;
+  align-items: center;
+  background: yellow;
+  padding: 1rem;
+  list-style: none;
+}
+.completed{
+  display:flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.completed button{
+  border-radius: 1rem;
+  border:none;
+  margin-top: 1.5rem;
+  padding: 1rem;
+}
